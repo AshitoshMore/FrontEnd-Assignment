@@ -1,0 +1,45 @@
+.books-container {
+    max-width: 600px;
+    margin: auto; /* Set margin auto to horizontally center */
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-direction: column;
+    text-align: center; /* Center text within the container */
+  }
+
+  .container {
+    width: 100vw; /* Set width to 100% of viewport width */
+  }
+  
+  
+  .books-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .books-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .books-list li {
+    margin-bottom: 10px;
+  }
+  
+  .books-list li a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .books-list li a:hover {
+    background-color: #e0e0e0;
+  }
+  
